@@ -16,16 +16,16 @@
 * Flask
 * Flask-SocketIO
 
-##JavaScript
+## JavaScript
 * Three.js
 
 # 必要なファイルデータ
-##　3Dモデルのデータ
+## 3Dモデルのデータ
 * vroid studioというソフトから3Dアバターを制作しVroid2Pmx ver2.01.05というソフトを使いモデルのファイル形式をpmxに変えてください。
 * vroid studioでアバターの伸長を変更した場合うまくWEBサイトの画面にうまく描画されなくなる可能性があります。
 * staticフォルダにMMDフォルダを作り3DモデルのデータpmxファイルとPmxTailorSetting,texフォルダを入れてださい
 
-##　 Three.js
+## Three.js
 * index.htmlのimportmapに従いThree.jsのファイルを入れてください
   
 # 遊び方
