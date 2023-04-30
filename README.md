@@ -24,6 +24,7 @@
 * vroid studioというソフトから3Dアバターを制作しVroid2Pmx ver2.01.05というソフトを使いモデルのファイル形式をpmxに変えてください。
 * vroid studioでアバターの伸長を変更した場合うまくWEBサイトの画面にうまく描画されなくなる可能性があります。
 * staticフォルダにMMDフォルダを作り3DモデルのデータpmxファイルとPmxTailorSetting,texフォルダを入れてださい
+* mmdSetting.jsファイルの86行目に設定したpmxファイルの名前を入力してください
 
 ## Three.js
 * index.htmlのimportmapに従いThree.jsのファイルを入れてください
