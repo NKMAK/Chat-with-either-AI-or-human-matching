@@ -1,0 +1,8 @@
+*.pmx
+*.pmd
+*.bmp
+*.tga
+*.vmd
+*.png
+static/MMD/PmxTailorSetting
+static/javaScript/Three.js

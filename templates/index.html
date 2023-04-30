@@ -1,0 +1,36 @@
+<head>
+    <script src="static/javaScript/Three.js/jsm/libs/ammo.wasm.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "./static/javaScript/Three.js/three.module.js",
+                "Stats": "./static/javaScript/Three.js/jsm/libs/stats.module.js",
+                "GUI": "./static/javaScript/Three.js/jsm/libs/lil-gui.module.min.js",
+                "OrbitControls": "./static/javaScript/Three.js/jsm/controls/OrbitControls.js",
+                "OutlineEffect": "./static/javaScript/Three.js/jsm/effects/OutlineEffect.js",
+                "MMDLoader": "./static/javaScript/Three.js/jsm/loaders/MMDLoader.js",
+                "MMDAnimationHelper": "./static/javaScript/Three.js/jsm/animation/MMDAnimationHelper.js",
+                "Tween": "./static/javaScript/Three.js/jsm/libs/tween.module.js"
+            }
+        }
+    </script>
+    <meta charset="UTF-8" />
+    <title>AIコミ</title>
+    <script type="module" src="static/javaScript/mmdSetting.js"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas"></canvas>
+    <form>
+        <input type="text" id="id_usernameText" placeholder="Username">
+        <input type="text" id="id_messageText" placeholder="message">
+        <button type="button" id="id_joinRoomButton" >Join</button>
+        <button type="button" id="id_sendMessageButton" >send</button>
+        <br>
+        <button type="button" id="id_leaveRoomButton" >leave</button>
+    </form>
+    <div id="id_massagesDiv"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+    <script type="module" src="static/javaScript/main.js"></script>
+</body>
+
