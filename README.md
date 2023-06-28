@@ -2,9 +2,10 @@
 
 AIか人間にマッチングするチャットアプリです。需要がありそうだったら今後はAIのふりをした人間かもしくは、AIかを判断するゲームにする予定です。
 
-# サンプル画像
+# サンプル動画(人同士の会話）
 
-![サンプル](sample1.png "sample1")
+https://github.com/NKMAK/Chat-with-either-AI-or-human-matching/assets/89186723/9d6bd9bc-3bcf-4fad-a1ce-2fab630a94b8
+
 
 # 特徴
 
